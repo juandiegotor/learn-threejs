@@ -1,0 +1,14 @@
+{
+  "name": "threejs-learning",
+  "version": "1.0.0",
+  "description": "personal project for learning threejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Diego Torres Morales",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.133.1"
+  }
+}
