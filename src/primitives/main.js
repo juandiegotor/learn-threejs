@@ -5,6 +5,7 @@ import coneGem from './geometry/cone.js';
 import cylinderGeom from './geometry/cylinder.js';
 import dodecahedronGeom from './geometry/dodecahedron.js';
 import extrudeGeom from './geometry/extrude.js';
+import icosahedronGeom from './geometry/icosahedron.js';
 
 // resizes the renderer if its different from the canvas, and passes the check
 // its a good practice to not resize the window if it already matches the
@@ -92,7 +93,8 @@ function main() {
   addSolidGeometry(0, 2 , coneGem);
   addSolidGeometry(1, 2, cylinderGeom);
   addSolidGeometry(2, 2, dodecahedronGeom);
-  addSolidGeometry(-2, 1, extrudeGeom);
+  addSolidGeometry(-2, 1, extrudeGeom); 
+  addSolidGeometry(-1, 1, icosahedronGeom);
 
   // Create a function to spin the objects
   const render = (time) => {
